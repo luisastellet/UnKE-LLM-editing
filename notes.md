@@ -46,8 +46,8 @@
     - Adaptar ou criar funções de máscara de atenção e de formatação de entrada/saída específicas para o novo modelo escolhido, garantindo compatibilidade com a arquitetura e o processamento do UnKE.
     - Ajustar o carregamento do modelo/tokenizer.
     - Garantir que a estrutura interna (nomes das camadas...) seja reconhecida pelo UnKE.
-- Como escolhemos as camdas que devemos editar?
+- Como escolhemos as camadas que devemos editar?
 - O dataset de entrada tem essas colunas (question, para_question, answer, sub_question, sub_answer)
 - Aqui no UNKE são perguntas e respostas de fatos, no nosso vai ser extamente o que?
-- Como a gente pode analisar se a edição foi boa?
-- Avaliar as metáforas talvez valha incluir as métricas que já usamos, né?
+- Como a gente pode analisar se a edição foi boa? compara com o treinado em português
+- Avaliar as metáforas talvez valha incluir as métricas que já usamos, né? Nos casos em que errou!
